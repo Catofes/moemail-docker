@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+chmod a+w /dev/stdout
+exec /usr/sbin/rsyslogd -n
